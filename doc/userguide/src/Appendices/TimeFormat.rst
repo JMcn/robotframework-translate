@@ -1,5 +1,5 @@
-Time format
-===========
+Time format (时间格式)
+======================
 
 Robot Framework has its own time format that is both flexible to use and easy
 to understand. It is used by several keywords (for example, BuiltIn_ keywords

@@ -1,12 +1,12 @@
-Configuring execution
-=====================
+Configuring execution (配置执行)
+=================================
 
 This section explains different command line options that can be used
 for configuring the `test execution`_ or `post-processing
-outputs`_. Options related to generated output files are discussed in
+outputs (后处理输出文件)`_. Options related to generated output files are discussed in
 the `next section`__.
 
-__ `Created outputs`_
+__ `Created outputs (产生输出文件)`_
 
 .. contents::
    :depth: 2
@@ -205,7 +205,7 @@ they start to pass.
 
 Criticality set when tests are
 executed is not stored anywhere. If you want to keep same criticality
-when `post-processing outputs`_ with Rebot, you need to
+when `post-processing outputs (后处理输出文件)`_ with Rebot, you need to
 use :option:`--critical` and/or :option:`--noncritical` also with it::
 
   # Use rebot to create new log and report from the output created during execution
@@ -274,7 +274,7 @@ When importing Java based libraries or other extensions on Jython, Java
 classpath is used in addition to the normal module search path.
 
 Robot Framework uses Python's module search path also when importing `resource
-and variable files`_ if the specified path does not match any file directly.
+and variable files (资源和变量文件)`_ if the specified path does not match any file directly.
 
 The module search path being set correctly so that libraries and other
 extensions are found is a requirement for successful test execution. If
@@ -370,7 +370,7 @@ __ https://docs.oracle.com/javase/8/docs/technotes/tools/findingclasses.html
 Setting variables
 -----------------
 
-Variables_ can be set from the command line either individually__
+`Variables (变量)`_ can be set from the command line either individually__
 using the :option:`--variable (-v)` option or through `variable files`_
 with the :option:`--variablefile (-V)` option. Variables and variable
 files are explained in separate chapters, but the following examples
@@ -624,5 +624,5 @@ Setting listeners
 Listeners_ can be used to monitor the test execution. When they are taken into
 use from the command line, they are specified using the :option:`--listener`
 command line option. The value can either be a path to a listener or
-a listener name. See the `Listener interface`_ section for more details
+a listener name. See the `Listener interface (监听器接口)`_ section for more details
 about importing listeners and using them in general.

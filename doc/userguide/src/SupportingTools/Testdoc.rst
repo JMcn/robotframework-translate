@@ -1,7 +1,7 @@
 .. _testdoc:
 
-Test data documentation tool (Testdoc)
-======================================
+Test data documentation tool (Testdoc) (测试数据文档工具)
+==========================================================
 
 .. contents::
    :depth: 1
@@ -42,7 +42,7 @@ Options
 All options except :option:`--title` have exactly the same semantics as same
 options have when `executing test cases`__.
 
-__ `Configuring execution`_
+__ `Configuring execution (配置执行)`_
 
 Generating documentation
 ------------------------

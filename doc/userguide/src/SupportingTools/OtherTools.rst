@@ -1,5 +1,5 @@
-External tools
-==============
+External tools (外部工具)
+==========================
 
 There are plenty of external tools that can be used with Robot Framework.
 These tools include test data editor RIDE_, extensions for various IDEs and

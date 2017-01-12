@@ -2,9 +2,9 @@
 .. include:: version.rst
 .. include:: roles.rst
 
-==============================
-  Robot Framework User Guide
-==============================
+========================================================
+  Robot Framework User Guide (robotframework 用户手册)
+========================================================
 
 ---------------------
   Version |version|
@@ -14,15 +14,15 @@
 | Copyright |copy| 2016- Robot Framework Foundation
 | Licensed under the `Creative Commons Attribution 3.0 Unported`_ license
 
-.. contents:: Table of Contents
+.. contents:: Table of Contents (目录)
    :depth: 2
 
 .. sectnum::
    :depth: 3
 
-~~~~~~~~~~~~~~~~~~~
-  Getting started
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
+  Getting started (开始)
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. contents::
    :depth: 1
@@ -34,9 +34,9 @@
 .. include:: GettingStarted/INSTALL.rst
 .. include:: GettingStarted/Demonstration.rst
 
-~~~~~~~~~~~~~~~~~~~~~~
-  Creating test data
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Creating test data (创建测试文件)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. contents::
    :depth: 1
@@ -51,9 +51,9 @@
 .. include:: CreatingTestData/ResourceAndVariableFiles.rst
 .. include:: CreatingTestData/AdvancedFeatures.rst
 
-~~~~~~~~~~~~~~~~~~~~~~~~
-  Executing test cases
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Executing test cases (执行测试用例)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. contents::
    :depth: 1
@@ -65,9 +65,9 @@
 .. include:: ExecutingTestCases/ConfiguringExecution.rst
 .. include:: ExecutingTestCases/OutputFiles.rst
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  Extending Robot Framework
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Extending Robot Framework (扩展 Robot Framework)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. contents::
    :depth: 1
@@ -78,9 +78,9 @@
 .. include:: ExtendingRobotFramework/ListenerInterface.rst
 .. include:: ExtendingRobotFramework/ExtendingRobotFrameworkJar.rst
 
-~~~~~~~~~~~~~~~~~~~~
-  Supporting Tools
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Supporting Tools (辅助工具)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. contents::
    :depth: 1
@@ -91,9 +91,9 @@
 .. include:: SupportingTools/Tidy.rst
 .. include:: SupportingTools/OtherTools.rst
 
-~~~~~~~~~~~~~~
-  Appendices
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+  Appendices (附录)
+~~~~~~~~~~~~~~~~~~~~
 
 .. contents::
    :depth: 1
@@ -112,22 +112,22 @@
 
 .. Commonly used Robot Framework related link targets
 
-.. 1. Getting started
+.. 1. Getting started (开始)
 
 .. _Creative Commons Attribution 3.0 Unported: http://creativecommons.org/licenses/by/3.0
 .. _Apache License 2.0: http://apache.org/licenses/LICENSE-2.0
 .. _mailing list: `Mailing lists`_
 
-.. 2. Creating test data
+.. 2. Creating test data (创建测试文件)
 
-.. _test data: `Creating test data`_
-.. _general parsing rules: `Test data syntax`_
+.. _test data: `Creating test data (创建测试文件)`_
+.. _general parsing rules: `Test data syntax (测试文件语法)`_
 .. _split into several rows: `Dividing test data to several rows`_
-.. _test case: `Creating test cases`_
+.. _test case: `Creating test cases (创建测试用例)`_
 .. _test cases: `test case`_
-.. _test suite: `Creating test suites`_
+.. _test suite: `Creating test suites (创建测试套件)`_
 .. _test suites: `test suite`_
-.. _user keyword: `Creating user keywords`_
+.. _user keyword: `Creating user keywords (创建用户关键字)`_
 .. _user keywords: `user keyword`_
 .. _higher-level keywords: `user keyword`_
 .. _keyword-driven: `Keyword-driven style`_
@@ -154,10 +154,10 @@
 .. _test timeout: `Test case timeout`_
 .. _user keyword timeouts: `User keyword timeout`_
 .. _keyword timeout: `User keyword timeout`_
-.. _variable: Variables_
+.. _variable: `Variables (变量)`_
 .. _Variable tables: `Variable table`_
 .. _automatic variable: `Automatic variables`_
-.. _test libraries: `Using test libraries`_
+.. _test libraries: `Using test libraries (使用测试库)`_
 .. _test library: `test libraries`_
 .. _library keyword: `test libraries`_
 .. _library keywords: `library keyword`_
@@ -166,7 +166,7 @@
 .. _Selenium2Library: https://github.com/robotframework/Selenium2Library
 .. _SwingLibrary: https://github.com/robotframework/SwingLibrary
 
-.. 3. Executing test cases
+.. 3. Executing test cases (执行测试用例)
 
 .. _syslog: `System log`_
 .. _test execution: `Starting test execution`_
@@ -191,27 +191,27 @@
 .. _debug files: `Debug file`_
 .. _log level: `Log levels`_
 .. _return code: `return codes`_
-.. _post-process outputs: `post-processing outputs`_
+.. _post-process outputs: `post-processing outputs (后处理输出文件)`_
 
-.. 4. Extending
+.. 4. Extending (扩展)
 
-.. _library API: `Creating test libraries`_
+.. _library API: `Creating test libraries (创建测试库)`_
 .. _static library API: `Creating static keywords`_
-.. _listener: `listener interface`_
-.. _listeners: `listener interface`_
+.. _listener: `listener interface (监听器接口)`_
+.. _listeners: `listener interface (监听器接口)`_
 
-.. 5. Appendices
+.. 5. Appendices (附录)
 
-.. _HTML formatting: `Documentation formatting`_
-.. _command line options: `All command line options`_
+.. _HTML formatting: `Documentation formatting (文档格式)`_
+.. _command line options: `All command line options (所有命令行选项)`_
 
-.. 6. Misc
+.. 6. Misc (杂项)
 
 .. _download page: http://downloads.robotframework.org
 .. _version control system: http://source.robotframework.org
 .. _previous User Guides: http://robotframework.org/robotframework/#user-guide
 
-.. API docs
+.. API docs (API 文档)
 
 .. _API documentation: http://robot-framework.readthedocs.org
 .. _visitor interface: http://robot-framework.readthedocs.org/en/master/autodoc/robot.model.html#module-robot.model.visitor
@@ -225,7 +225,7 @@
 .. _result.Message: http://robot-framework.readthedocs.org/en/master/autodoc/robot.result.html#robot.result.model.Message
 .. _result model: http://robot-framework.readthedocs.org/en/master/autodoc/robot.result.html#module-robot.result.model
 
-.. External link targets
+.. External link targets (外部链接目标)
 
 .. _reStructuredText: http://docutils.sourceforge.net/rst.html
 .. _docutils: https://pypi.python.org/pypi/docutils

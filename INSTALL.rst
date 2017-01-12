@@ -1,5 +1,5 @@
-Installation instructions
-=========================
+Installation instructions (安装说明)
+=====================================
 
 These instructions cover installing and uninstalling Robot Framework and its
 preconditions on different operating systems. If you already have `pip
@@ -453,7 +453,7 @@ with it like:
   java -jar robotframework-3.0.jar --variable name:value mytests.robot
 
 If you want to `post-process outputs`_ using Rebot or use other built-in
-`supporting tools`_, you need to give the command name ``rebot``, ``libdoc``,
+`supporting tools (辅助工具)`_, you need to give the command name ``rebot``, ``libdoc``,
 ``testdoc`` or ``tidy`` as the first argument to the JAR file:
 
 .. sourcecode:: bash

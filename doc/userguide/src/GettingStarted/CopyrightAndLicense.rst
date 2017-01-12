@@ -1,5 +1,5 @@
-Copyright and license
-=====================
+Copyright and license (版权和许可)
+==================================
 
 Robot Framework is open source software provided under the `Apache License
 2.0`_. Robot Framework documentation such as this User Guide use the

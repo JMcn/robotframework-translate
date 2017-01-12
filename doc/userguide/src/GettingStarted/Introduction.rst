@@ -1,5 +1,5 @@
-Introduction
-============
+Introduction (介绍)
+====================
 
 Robot Framework is a Python-based, extensible keyword-driven test
 automation framework for end-to-end acceptance testing and
@@ -23,7 +23,7 @@ Robot Framework is open source software released under the `Apache License
 Why Robot Framework?
 --------------------
 
-- Enables easy-to-use tabular syntax for `creating test cases`_ in a uniform
+- Enables easy-to-use tabular syntax for `creating test cases (创建测试用例)`_ in a uniform
   way.
 
 - Provides ability to create reusable `higher-level keywords`_ from the
@@ -45,7 +45,7 @@ Why Robot Framework?
 
 - Supports creating `data-driven test cases`__.
 
-- Has built-in support for variables_, practical particularly for testing in
+- Has built-in support for `variables (变量)`_, practical particularly for testing in
   different environments.
 
 - Provides tagging__ to categorize and `select test cases`__ to be executed.
@@ -85,7 +85,7 @@ is handled by `test libraries`__. Libraries can either use application
 interfaces directly or use lower level test tools as drivers.
 
 __ `Executing test cases`_
-__ `Creating test libraries`_
+__ `Creating test libraries (创建测试库)`_
 
 
 Screenshots

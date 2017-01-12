@@ -1,5 +1,5 @@
-Boolean arguments
-=================
+Boolean arguments (布尔型参数)
+==============================
 
 Many keywords in Robot Framework `standard libraries`_ accept arguments that
 are handled as Boolean values true or false. If such an argument is given as

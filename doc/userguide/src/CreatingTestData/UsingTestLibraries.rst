@@ -1,12 +1,12 @@
-Using test libraries
-====================
+Using test libraries (使用测试库)
+==================================
 
 Test libraries contain those lowest-level keywords, often called
 *library keywords*, which actually interact with the system under
 test. All test cases always use keywords from some library, often
 through higher-level `user keywords`_. This section explains how to
 take test libraries into use and how to use the keywords they
-provide. `Creating test libraries`_ is described in a separate
+provide. `Creating test libraries (创建测试库)`_ is described in a separate
 section.
 
 .. contents::
@@ -101,7 +101,7 @@ Using physical path to library
 Another mechanism for specifying the library to import is using a
 path to it in the file system. This path is considered relative to the
 directory where current test data file is situated similarly as paths
-to `resource and variable files`_. The main benefit of this approach
+to `resource and variable files (资源和变量文件)`_. The main benefit of this approach
 is that there is no need to configure the module search path.
 
 If the library is a file, the path to it must contain extension. For
@@ -230,7 +230,7 @@ These libraries can be running on other machines than the core
 framework and can even be implemented using languages not supported by
 Robot Framework natively.
 
-See separate `Remote library interface`_ section for more information
+See separate `Remote library interface (远程库接口)`_ section for more information
 about this concept.
 
 External libraries
@@ -243,7 +243,7 @@ SwingLibrary_, which are not packaged with the core framework. A list of
 publicly available libraries can be found from http://robotframework.org.
 
 Generic and custom libraries can obviously also be implemented by teams using
-Robot Framework. See `Creating test libraries`_ section for more information
+Robot Framework. See `Creating test libraries (创建测试库)`_ section for more information
 about that topic.
 
 Different external libraries can have a totally different mechanism

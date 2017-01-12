@@ -1,5 +1,5 @@
-Extending the Robot Framework Jar
-=================================
+Extending the Robot Framework Jar (扩展 Robot Framework Jar)
+===============================================================
 
 Adding additional test libraries or support code to the Robot Framework jar is
 quite straightforward using the ``jar`` command included in standard JDK

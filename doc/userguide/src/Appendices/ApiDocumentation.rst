@@ -1,5 +1,5 @@
-Internal API
-============
+Internal API (内部 API)
+========================
 
 Starting from Robot Framework 2.7, `API documentation`_ is hosted separately
 at the excellent `Read the Docs`_ service. If you are unsure how to use

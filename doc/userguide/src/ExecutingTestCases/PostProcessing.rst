@@ -1,7 +1,7 @@
 .. _rebot:
 
-Post-processing outputs
-=======================
+Post-processing outputs (后处理输出文件)
+========================================
 
 `XML output files`_ that are generated during the test execution can be
 post-processed afterwards by the Rebot tool, which is an integral

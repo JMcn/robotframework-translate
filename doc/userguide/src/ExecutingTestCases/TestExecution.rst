@@ -1,5 +1,5 @@
-Test execution
-==============
+Test execution (测试执行)
+==========================
 
 This section describes how the test suite structure created from the parsed
 test data is executed, how to continue executing a test case after failures,

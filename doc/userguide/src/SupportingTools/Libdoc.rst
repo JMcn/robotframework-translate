@@ -1,7 +1,7 @@
 .. _libdoc:
 
-Library documentation tool (Libdoc)
-===================================
+Library documentation tool (Libdoc) (库文档工具)
+=================================================
 
 .. contents::
    :depth: 1
@@ -171,7 +171,7 @@ Writing documentation
 
 This section discusses writing documentation for Python__ and Java__ based test
 libraries that use the static library API as well as for `dynamic libraries`_
-and `resource files`__. `Creating test libraries`_ and `resource files`_ is
+and `resource files`__. `Creating test libraries (创建测试库)`_ and `resource files`_ is
 described in more details elsewhere in the User Guide.
 
 __ `Python libraries`_
@@ -618,7 +618,7 @@ Libdoc example
 --------------
 
 The following example illustrates how to use the most important
-`documentation formatting`_ possibilities, `internal linking`_, and so
+`documentation formatting (文档格式)`_ possibilities, `internal linking`_, and so
 on. `Click here`__ to see how the generated documentation looks like.
 
 .. sourcecode:: python

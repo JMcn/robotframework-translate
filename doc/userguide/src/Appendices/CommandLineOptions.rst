@@ -1,8 +1,8 @@
-All command line options
-========================
+All command line options (所有命令行选项)
+==========================================
 
 This appendix lists all the command line options that are available
-when `executing test cases`_  and when `post-processing outputs`_.
+when `executing test cases`_  and when `post-processing outputs (后处理输出文件)`_.
 Also environment variables affecting execution and post-processing
 are listed.
 

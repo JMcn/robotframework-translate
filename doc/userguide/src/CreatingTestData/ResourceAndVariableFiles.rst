@@ -1,5 +1,5 @@
-Resource and variable files
-===========================
+Resource and variable files (资源和变量文件)
+=============================================
 
 User keywords and variables in `test case files`_ and `test suite
 initialization files`_ can only be used in files where they are
@@ -56,7 +56,7 @@ The higher-level structure of resource files is the same as that of
 test case files otherwise, but, of course, they cannot contain Test
 Case tables. Additionally, the Setting table in resource files can
 contain only import settings (:setting:`Library`, :setting:`Resource`,
-:setting:`Variables`) and :setting:`Documentation`. The Variable table and
+:setting:`Variables (变量)`) and :setting:`Documentation`. The Variable table and
 Keyword table are used exactly the same way as in test case files.
 
 If several resource files have a user keyword with the same name, they
@@ -118,7 +118,7 @@ Example resource file
 Variable files
 --------------
 
-Variable files contain variables_ that can be used in the test
+Variable files contain `variables (变量)`_ that can be used in the test
 data. Variables can also be created using variable tables or set from
 the command line, but variable files allow creating them dynamically
 and their variables can contain any objects.

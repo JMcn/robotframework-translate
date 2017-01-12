@@ -1,5 +1,5 @@
-Remote library interface
-========================
+Remote library interface (远程库接口)
+======================================
 
 The remote library interface provides means for having test libraries
 on different machines than where Robot Framework itself is running,
@@ -9,7 +9,7 @@ libraries look pretty much the same as any other test library, and
 developing test libraries using the remote library interface is also
 very close to creating `normal test libraries`__.
 
-__ `Creating test libraries`_
+__ `Creating test libraries (创建测试库)`_
 
 .. contents::
    :depth: 2
@@ -92,7 +92,7 @@ that the Remote library uses if no address is given. Similarly port
 The last example above shows how to give a custom timeout to the Remote library
 as an optional second argument. The timeout is used when initially connecting
 to the server and if a connection accidentally closes. Timeout can be
-given in Robot Framework `time format`_ like `60s` or `2 minutes 10 seconds`.
+given in Robot Framework `time format (时间格式)`_ like `60s` or `2 minutes 10 seconds`.
 
 The default timeout is typically several minutes, but it depends on
 the operating system and its configuration. Notice that setting

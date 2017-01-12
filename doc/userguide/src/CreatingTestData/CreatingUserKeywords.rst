@@ -1,5 +1,5 @@
-Creating user keywords
-======================
+Creating user keywords (创建用户关键字)
+=======================================
 
 Keyword tables are used to create new higher-level keywords by
 combining existing keywords together. These keywords are called *user
@@ -150,7 +150,7 @@ specifying them is probably the most complicated feature normally
 needed with Robot Framework, but even that is relatively easy,
 particularly in most common cases. Arguments are normally specified with
 the :setting:`[Arguments]` setting, and argument names use the same
-syntax as variables_, for example `${arg}`.
+syntax as `variables (变量)`_, for example `${arg}`.
 
 Positional arguments
 ~~~~~~~~~~~~~~~~~~~~

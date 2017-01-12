@@ -1,5 +1,5 @@
-Creating test libraries
-=======================
+Creating test libraries (创建测试库)
+=====================================
 
 Robot Framework's actual testing capabilities are provided by test
 libraries. There are many existing libraries, some of which are even
@@ -319,7 +319,7 @@ Specifying documentation format
 
 Starting from Robot Framework 2.7.5, library documentation tool Libdoc_
 supports documentation in multiple formats. If you want to use something
-else than Robot Framework's own `documentation formatting`_, you can specify
+else than Robot Framework's own `documentation formatting (文档格式)`_, you can specify
 the format in the source code using  `ROBOT_LIBRARY_DOC_FORMAT` attribute
 similarly as scope__ and version__ are set with their own
 `ROBOT_LIBRARY_*` attributes.
@@ -386,7 +386,7 @@ __ `Specifying library version`_
 Library acting as listener
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-`Listener interface`_ allows external listeners to get notifications about
+`Listener interface (监听器接口)`_ allows external listeners to get notifications about
 test execution. They are called, for example, when suites, tests, and keywords
 start and end. Sometimes getting such notifications is also useful for test
 libraries, and they can register a custom listener by using
@@ -811,7 +811,7 @@ Free keyword arguments (`**kwargs`)
 
 Robot Framework 2.8 added the support for free keyword arguments using Python's
 `**kwargs` syntax. How to use the syntax in the test data is discussed
-in `Free keyword arguments`_ section under `Creating test cases`_. In this
+in `Free keyword arguments`_ section under `Creating test cases (创建测试用例)`_. In this
 section we take a look at how to actually use it in custom test libraries.
 
 Free keyword arguments with Python
@@ -917,7 +917,7 @@ Argument types
 
 Normally keyword arguments come to Robot Framework as strings. If
 keywords require some other types, it is possible to either use
-variables_ or convert strings to required types inside keywords. With
+`variables (变量)`_ or convert strings to required types inside keywords. With
 `Java keywords`__ base types are also coerced automatically.
 
 __ `Argument types with Java`_
@@ -1237,7 +1237,7 @@ As illustrated by the examples below, adding the timestamp is easy
 both using Python and Java. If you are using Python, it is, however,
 even easier to get accurate timestamps using the `programmatic logging
 APIs`_. A big benefit of adding timestamps explicitly is that this
-approach works also with the `remote library interface`_.
+approach works also with the `remote library interface (远程库接口)`_.
 
 Python:
 
@@ -1649,7 +1649,7 @@ because their documentations are lost in compilation and not available
 at runtime.
 
 By default documentation is considered to follow Robot Framework's
-`documentation formatting`_ rules. This simple format allows often used
+`documentation formatting (文档格式)`_ rules. This simple format allows often used
 styles like `*bold*` and `_italic_`, tables, lists, links, etc.
 Starting from Robot Framework 2.7.5, it is possible to use also HTML, plain
 text and reStructuredText_ formats. See `Specifying documentation format`_

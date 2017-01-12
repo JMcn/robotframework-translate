@@ -1,5 +1,5 @@
-Advanced features
-=================
+Advanced features (高级特性)
+=============================
 
 .. contents::
    :depth: 2
@@ -124,7 +124,7 @@ to use value `NONE` for this purpose.
 
 Regardless of where the test timeout is defined, the first cell after
 the setting name contains the duration of the timeout. The duration
-must be given in Robot Framework's `time format`_, that is,
+must be given in Robot Framework's `time format (时间格式)`_, that is,
 either directly in seconds or in a format like `1 minute
 30 seconds`. It must be noted that there is always some overhead by the
 framework, and timeouts shorter than one second are thus not
@@ -250,7 +250,7 @@ one value per iteration. The syntax starts with `:FOR`, where
 colon is required to separate the syntax from normal keywords. The
 next cell contains the loop variable, the subsequent cell must have
 `IN`, and the final cells contain values over which to iterate.
-These values can contain variables_, including `list variables`_.
+These values can contain `variables (变量)`_, including `list variables`_.
 
 The keywords used in the for loop are on the following rows and they must
 be indented one cell to the right. When using the `plain text format`_,

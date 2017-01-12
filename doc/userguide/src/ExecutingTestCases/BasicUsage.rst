@@ -1,12 +1,12 @@
-Basic usage
-===========
+Basic usage (基本应用)
+======================
 
 Robot Framework test cases are executed from the command line, and the
 end result is, by default, an `output file`_ in XML format and an HTML
 report_ and log_. After the execution, output files can be combined and
 otherwise `post-processed`__ with the Rebot tool.
 
-__ `Post-processing outputs`_
+__ `Post-processing outputs (后处理输出文件)`_
 
 .. contents::
    :depth: 2
@@ -245,7 +245,7 @@ avoid the need to repeat them every time tests are run or Rebot used.
           Possibility to have spaces in values by surrounding them in quotes
           is new in Robot Framework 2.9.2.
 
-__ `Post-processing outputs`_
+__ `Post-processing outputs (后处理输出文件)`_
 
 Test results
 ------------

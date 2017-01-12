@@ -1,5 +1,5 @@
-Variables
-=========
+Variables (变量)
+=================
 
 .. contents::
    :depth: 2
@@ -259,7 +259,7 @@ those places where list variables are not supported.
    Suite Setup     @{KEYWORD}                         # This does not work
    Default Tags    @{TAGS}                            # This works
 
-__ `All available settings in test data`_
+__ `All available settings in test data (所有测试数据的变量设置)`_
 
 .. _dictionary variable:
 
@@ -509,7 +509,7 @@ Variable files are the most powerful mechanism for creating different
 kind of variables. It is possible to assign variables to any object
 using them, and they also enable creating variables dynamically. The
 variable file syntax and taking variable files into use is explained
-in section `Resource and variable files`_.
+in section `Resource and variable files (资源和变量文件)`_.
 
 Setting variables in command line
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1023,7 +1023,7 @@ __ `Setting variables in command line`_
 
 *Imported resource and variable files*
 
-   Variables imported from the `resource and variable files`_ have the
+   Variables imported from the `resource and variable files  (资源和变量文件)`_ have the
    lowest priority of all variables created in the test data.
    Variables from resource files and variable files have the same
    priority. If several resource and/or variable file have same
@@ -1081,13 +1081,13 @@ Test suite scope
 
 Variables with the test suite scope are available anywhere in the
 test suite where they are defined or imported. They can be created
-in Variable tables, imported from `resource and variable files`_,
+in Variable tables, imported from `resource and variable files (资源和变量文件)`_,
 or set during the test execution using the BuiltIn_ keyword
 :name:`Set Suite Variable`.
 
 The test suite scope *is not recursive*, which means that variables
 available in a higher-level test suite *are not available* in
-lower-level suites. If necessary, `resource and variable files`_ can
+lower-level suites. If necessary, `resource and variable files (资源和变量文件)`_ can
 be used for sharing variables.
 
 Since these variables can be considered global in the test suite where

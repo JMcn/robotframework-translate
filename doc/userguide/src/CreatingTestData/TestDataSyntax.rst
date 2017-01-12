@@ -1,5 +1,5 @@
-Test data syntax
-================
+Test data syntax (测试文件语法)
+===============================
 
 This section covers Robot Framework's overall test data
 syntax. The following sections will explain how to actually create test
@@ -27,7 +27,7 @@ The hierarchical structure for arranging test cases is built as follows:
 In addition to this, there are:
 
 - `Test libraries`_ containing the lowest-level keywords.
-- `Resource files`_ with variables_ and higher-level `user keywords`_.
+- `Resource files`_ with `variables (变量)`_ and higher-level `user keywords`_.
 - `Variable files`_ to provide more flexible ways to create variables
   than resource files.
 
@@ -47,7 +47,7 @@ The extension is case-insensitive, and the recognized extensions are
 for TSV, :file:`.txt` and special :file:`.robot` for plain text, and
 :file:`.rst` and :file:`.rest` for reStructuredText.
 
-Different `test data templates`_ are available for HTML and TSV
+Different `test data templates (测试数据模板)`_ are available for HTML and TSV
 formats to make it easier to get started writing tests.
 
 .. note:: The special :file:`.robot` extension with plain text files is
@@ -541,30 +541,30 @@ Test data tables
 
 Test data is structured in four types of tables listed below. These
 test data tables are identified by the first cell of the table. Recognized
-table names are `Settings`, `Variables`, `Test Cases`, and `Keywords`. Matching
+table names are `Settings`, `Variables (变量)`, `Test Cases`, and `Keywords`. Matching
 is case-insensitive and also singular variants like `Setting` and `Test Case`
 are accepted.
 
 .. table:: Different test data tables
    :class: tabular
 
-   +--------------+--------------------------------------------+
-   |    Table     |                 Used for                   |
-   +==============+============================================+
-   | Settings     | | 1) Importing `test libraries`_,          |
-   |              |   `resource files`_ and `variable files`_. |
-   |              | | 2) Defining metadata for `test suites`_  |
-   |              |   and `test cases`_.                       |
-   +--------------+--------------------------------------------+
-   | Variables    | Defining variables_ that can be used       |
-   |              | elsewhere in the test data.                |
-   +--------------+--------------------------------------------+
-   | Test Cases   | `Creating test cases`_ from available      |
-   |              | keywords.                                  |
-   +--------------+--------------------------------------------+
-   | Keywords     | `Creating user keywords`_ from existing    |
-   |              | lower-level keywords                       |
-   +--------------+--------------------------------------------+
+   +--------------+----------------------------------------------------------+
+   |    Table     |                 Used for                                 |
+   +==============+==========================================================+
+   | Settings     | | 1) Importing `test libraries`_,                        |
+   |              |   `resource files`_ and `variable files`_.               |
+   |              | | 2) Defining metadata for `test suites`_                |
+   |              |   and `test cases`_.                                     |
+   +--------------+----------------------------------------------------------+
+   | Variables    | Defining `variables (变量)`_ that can be used            |
+   |              | elsewhere in the test data.                              |
+   +--------------+----------------------------------------------------------+
+   | Test Cases   | `Creating test cases (创建测试用例)`_ from available     |
+   |              | keywords.                                                |
+   +--------------+----------------------------------------------------------+
+   | Keywords     | `Creating user keywords (创建用户关键字)`_ from existing |
+   |              | lower-level keywords                                     |
+   +--------------+----------------------------------------------------------+
 
 Rules for parsing the data
 --------------------------

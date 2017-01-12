@@ -1,5 +1,5 @@
-Creating test cases
-===================
+Creating test cases (创建测试用例)
+==================================
 
 This section describes the overall test case syntax. Organizing test
 cases into `test suites`_ using `test case files`_ and `test suite
@@ -258,7 +258,7 @@ The relative order of the named arguments does not matter.
 Named arguments with variables
 ''''''''''''''''''''''''''''''
 
-It is possible to use `variables`_ in both named argument names and values.
+It is possible to use `variables (变量)`_ in both named argument names and values.
 If the value is a single `scalar variable`_, it is passed to the keyword as-is.
 This allows using any objects, not only strings, as values also when using
 the named argument syntax. For example, calling a keyword like `arg=${object}`
@@ -367,7 +367,7 @@ variables were left un-resolved.
 Initially free keyword arguments only worked with Python based libraries, but
 Robot Framework 2.8.2 extended the support to the `dynamic library API`_
 and Robot Framework 2.8.3 extended it further to Java based libraries and to
-the `remote library interface`_. Finally, user keywords got `kwargs support
+the `remote library interface (远程库接口)`_. Finally, user keywords got `kwargs support
 <Kwargs with user keywords_>`__ in Robot Framework 2.9. In other words,
 all keywords can nowadays support kwargs.
 
@@ -393,7 +393,7 @@ syntax`__.
        Run Process    program.py    argument    shell=True    env=${ENVIRON}
 
 See `Free keyword arguments (**kwargs)`_ section under `Creating test
-libraries`_ for more information about using the kwargs syntax in
+libraries (创建测试库)`_ for more information about using the kwargs syntax in
 your custom test libraries.
 
 As the second example, let's create a wrapper `user keyword`_ for running the
@@ -484,7 +484,7 @@ The :setting:`[Documentation]` setting allows you to set a free
 documentation for a test case. That text is shown in the command line
 output, as well as the resulting test logs and test reports.
 It is possible to use simple `HTML formatting`_ in documentation and
-variables_ can be used to make the documentation dynamic.
+`variables (变量)`_ can be used to make the documentation dynamic.
 
 If documentation is split into multiple columns, cells in one row are
 concatenated together with spaces. This is mainly be useful when using
@@ -767,7 +767,7 @@ the templated tests the mode is on automatically.
 
 Using arguments with `default values`_ or `varargs`_, as well as using
 `named arguments`_ and `free keyword arguments`_, work with templates
-exactly like they work otherwise. Using variables_ in arguments is also
+exactly like they work otherwise. Using `variables (变量)`_ in arguments is also
 supported normally.
 
 Templates with embedded arguments

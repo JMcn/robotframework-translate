@@ -1,7 +1,7 @@
 .. _tidy:
 
-Test data clean-up tool (Tidy)
-==============================
+Test data clean-up tool (Tidy) (测试数据清理工具)
+==================================================
 
 .. contents::
    :depth: 1

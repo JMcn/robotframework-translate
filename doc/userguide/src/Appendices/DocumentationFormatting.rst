@@ -1,7 +1,7 @@
 .. _Documentation syntax:
 
-Documentation formatting
-========================
+Documentation formatting (文档格式)
+====================================
 
 It is possible to use simple HTML formatting with `test suite`__,
 `test case`__ and `user keyword`__ documentation and `free test suite

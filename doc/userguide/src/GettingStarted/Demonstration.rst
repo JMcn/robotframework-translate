@@ -1,5 +1,5 @@
-Demonstrations
-==============
+Demonstrations (示例)
+======================
 
 There are several demo projects that introduce Robot Framework and help getting
 started with it.

@@ -1,7 +1,7 @@
-Test data templates
-===================
+Test data templates (测试数据模板)
+===================================
 
-These templates can be used when `creating test data`_ for Robot
+These templates can be used when `creating test data (创建测试文件)`_ for Robot
 Framework. There are templates both for `test case`_ and `resource
 files`_, and resource templates can also be used to create `test suite
 initialization files`_.

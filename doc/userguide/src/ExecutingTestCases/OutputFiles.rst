@@ -1,5 +1,5 @@
-Created outputs
-===============
+Created outputs (产生输出文件)
+==============================
 
 Several output files are created when tests are executed, and all of
 them are somehow related to test results. This section discusses what
@@ -51,7 +51,7 @@ The command line option :option:`--output (-o)` determines the path where
 the output file is created relative to the `output directory`_. The default
 name for the output file, when tests are run, is :file:`output.xml`.
 
-When `post-processing outputs`_ with Rebot, new output files are not created
+When `post-processing outputs (后处理输出文件)`_ with Rebot, new output files are not created
 unless the :option:`--output` option is explicitly used.
 
 It is possible to disable creation of the output file when running tests by
@@ -267,7 +267,7 @@ threshold level. A special value `NONE` can also be used to
 disable logging altogether.
 
 It is possible to use the :option:`--loglevel` option also when
-`post-processing outputs`_ with Rebot. This allows, for example,
+`post-processing outputs (后处理输出文件)`_ with Rebot. This allows, for example,
 running tests initially with the `TRACE` level, and generating smaller
 log files for normal viewing later with the `INFO` level. By default
 all the messages included during execution will be included also with
@@ -456,7 +456,7 @@ multiple times.
 In these situations, command line options :option:`--removekeywords` and
 :option:`--flattenkeywords` can be used to dispose or flatten unnecessary keywords.
 They can be used both when `executing test cases`_ and when `post-processing
-outputs`_. When used during execution, they only affect the log file, not
+outputs (后处理输出文件)`_. When used during execution, they only affect the log file, not
 the XML output file. With `rebot` they affect both logs and possibly
 generated new output XML files.
 
