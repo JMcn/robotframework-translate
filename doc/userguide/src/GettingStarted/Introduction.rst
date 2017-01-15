@@ -7,21 +7,31 @@ acceptance-test-driven development (ATDD). It can be used for testing
 distributed, heterogeneous applications, where verification requires
 touching several technologies and interfaces.
 
+Robot Framework 是一种基于 python 的可扩展关键字驱动的自动化测试框架,通常用于端到端的验收测试和验收测试驱动开发。
+它可以用于测试声明涉及到多种技术和接口的分布式、异构的应用系统。
+
 The framework has a rich ecosystem around it consisting of various generic
 test libraries and tools that are developed as separate projects. For more
 information about Robot Framework and the ecosystem, see
 http://robotframework.org.
 
+这个框架有丰富的生态系统,包括各种通用的测试库和工具作为单独项目开发。更多资料关于 Robot Framework 和它的生态系统,
+请参考: http://robotframework.org 。
+
+
 Robot Framework is open source software released under the `Apache License
 2.0`_. Its development is sponsored by the `Robot Framework Foundation
 <http://robotframework.org/foundation>`_.
+
+Robot Framework是在 `Apache License 2.0`_ 许可证下发布的开源软件。它的发展是由 `Robot Framework Foundation
+<http://robotframework.org/foundation>`_ 赞助。
 
 .. contents::
    :depth: 2
    :local:
 
-Why Robot Framework?
---------------------
+Why Robot Framework? (为何选择Robot Framework?)
+-------------------------------------------------
 
 - Enables easy-to-use tabular syntax for `creating test cases (创建测试用例)`_ in a uniform
   way.
@@ -66,8 +76,8 @@ __ `Test setup and teardown`_
 __ `Suite setup and teardown`_
 
 
-High-level architecture
------------------------
+High-level architecture (高层次的架构)
+---------------------------------------
 
 Robot Framework is a generic, application and technology independent
 framework. It has a highly modular architecture illustrated in the
@@ -88,8 +98,8 @@ __ `Executing test cases`_
 __ `Creating test libraries (创建测试库)`_
 
 
-Screenshots
------------
+Screenshots (屏幕截图)
+-----------------------
 
 Following screenshots show examples of the `test data`_ and created
 reports_ and logs_.
@@ -103,11 +113,11 @@ reports_ and logs_.
    Reports and logs
 
 
-Getting more information
-------------------------
+Getting more information (获取更多信息)
+----------------------------------------
 
-Project pages
-~~~~~~~~~~~~~
+Project pages (项目页面)
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The number one place to find more information about Robot Framework
 and the rich ecosystem around it is http://robotframework.org.
@@ -115,8 +125,8 @@ Robot Framework itself is hosted on GitHub__.
 
 __ https://github.com/robotframework/robotframework
 
-Mailing lists
-~~~~~~~~~~~~~
+Mailing lists (邮件列表)
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 There are several Robot Framework mailing lists where to ask and
 search for more information. The mailing list archives are open for

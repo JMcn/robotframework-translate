@@ -116,7 +116,7 @@
 
 .. _Creative Commons Attribution 3.0 Unported: http://creativecommons.org/licenses/by/3.0
 .. _Apache License 2.0: http://apache.org/licenses/LICENSE-2.0
-.. _mailing list: `Mailing lists`_
+.. _mailing list: `Mailing lists (邮件列表)`_
 
 .. 2. Creating test data (创建测试文件)
 
