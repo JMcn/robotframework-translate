@@ -78,6 +78,8 @@ Why Robot Framework? (为何选择Robot Framework?)
 
 - Provides tagging__ to categorize and `select test cases`__ to be executed.
 
+- 提供标记以对要执行的测试用例进行分类和选择。
+
 - Enables easy integration with source control: `test suites`_ are just files
   and directories that can be versioned with the production code.
 
