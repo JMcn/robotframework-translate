@@ -36,27 +36,45 @@ Why Robot Framework? (为何选择Robot Framework?)
 - Enables easy-to-use tabular syntax for `creating test cases (创建测试用例)`_ in a uniform
   way.
 
+- 使用容易使用的表格语法,创建统一格式的测试用例。
+
 - Provides ability to create reusable `higher-level keywords`_ from the
   existing keywords.
 
+- 提供重复利用已经存在的关键字来创建高层次关键字的能力。
+
 - Provides easy-to-read result reports_ and logs_ in HTML format.
+
+- 提供易于阅读结果,采用 HTML 格式的报告和日志。
 
 - Is platform and application independent.
 
+- 平台与被测系统应用程序相互独立。
+
 - Provides a simple `library API`_ for creating customized test libraries
   which can be implemented natively with either Python or Java.
+
+- 提供用于创建自定义测试库的简单库API,它可以使用Python或Java本地实现。
 
 - Provides a `command line interface`__ and XML based `output files`_  for
   integration into existing build infrastructure (continuous integration
   systems).
 
+- 提供命令行界面和基于XML的输出文件,用于集成到现有构建基础架构(持续集成系统)中。
+
 - Provides support for Selenium for web testing, Java GUI testing, running
   processes, Telnet, SSH, and so on.
 
+- 提供对 Selenium 的 Web 测试,Java GUI 测试,运行的支持进程,Telnet,SSH等的支持。
+
 - Supports creating `data-driven test cases`__.
+
+- 支持创建数据驱动测试用例。
 
 - Has built-in support for `variables (变量)`_, practical particularly for testing in
   different environments.
+
+- 内置对“变量”的支持，特别适用于测试不同环境。
 
 - Provides tagging__ to categorize and `select test cases`__ to be executed.
 
