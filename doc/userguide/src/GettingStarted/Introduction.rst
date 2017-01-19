@@ -36,7 +36,7 @@ Why Robot Framework? (为何选择Robot Framework?)
 - Enables easy-to-use tabular syntax for `creating test cases (创建测试用例)`_ in a uniform
   way.
 
-- 使用容易使用的表格语法,创建统一格式的测试用例。
+- 使用容易使用的表格语法,用统一格式创建测试用例。
 
 - Provides ability to create reusable `higher-level keywords`_ from the
   existing keywords.
@@ -74,7 +74,7 @@ Why Robot Framework? (为何选择Robot Framework?)
 - Has built-in support for `variables (变量)`_, practical particularly for testing in
   different environments.
 
-- 内置对“变量”的支持，特别适用于测试不同环境。
+- Built-in 支持不同环境下的特殊变量。
 
 - Provides tagging__ to categorize and `select test cases`__ to be executed.
 
@@ -83,10 +83,16 @@ Why Robot Framework? (为何选择Robot Framework?)
 - Enables easy integration with source control: `test suites`_ are just files
   and directories that can be versioned with the production code.
 
+- 实现与源代码控制的轻松集成:测试集是可以使用生产代码进行版本化的文件和目录。
+
 - Provides `test-case`__ and `test-suite`__ -level setup and teardown.
+
+- 提供测试用例和测试集级别的 setup 和 teardown。
 
 - The modular architecture supports creating tests even for applications with
   several diverse interfaces.
+
+- 模块化的结构甚至支持为有多种接口的应用程序创建测试数据。
 
 __ `Executing test cases`_
 __ `Data-driven style`_
@@ -102,6 +108,8 @@ High-level architecture (高层次的架构)
 Robot Framework is a generic, application and technology independent
 framework. It has a highly modular architecture illustrated in the
 diagram below.
+
+Robot Framework 是一个通用的，应用和技术相互独立的框架。它有一个高度模块化的架构图如下。
 
 .. figure:: src/GettingStarted/architecture.png
 
