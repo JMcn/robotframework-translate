@@ -113,7 +113,7 @@ Robot Framework 是一个通用的，应用和技术相互独立的框架。它�
 
 .. figure:: src/GettingStarted/architecture.png
 
-   Robot Framework architecture
+   Robot Framework architecture (Robot Framework 架构图)
 
 The `test data`_ is in simple, easy-to-edit tabular format. When
 Robot Framework is started, it processes the test data, `executes test
@@ -121,6 +121,10 @@ cases`__ and generates logs and reports. The core framework does not
 know anything about the target under test, and the interaction with it
 is handled by `test libraries`__. Libraries can either use application
 interfaces directly or use lower level test tools as drivers.
+
+测试数据以一种简单易于编辑的表格格式。当 Robot Framework 启动的时候，启动测试数据，执行测试用例
+并且生成日志和报告。核心框架不知道任何关于被测目标系统的细节，核心框架与被测系统通过测试库进行交互。
+测试库能够直接使用应用程序接口或者使用更低层次的测试工具作为驱动。
 
 __ `Executing test cases`_
 __ `Creating test libraries (创建测试库)`_
@@ -132,13 +136,15 @@ Screenshots (屏幕截图)
 Following screenshots show examples of the `test data`_ and created
 reports_ and logs_.
 
+以下屏幕截图展示了测试数据和创建的报告和日志的例子。
+
 .. figure:: src/GettingStarted/testdata_screenshots.png
 
-   Test case files
+   Test case files (测试用例文件)
 
 .. figure:: src/GettingStarted/screenshots.png
 
-   Reports and logs
+   Reports and logs (报告和日志)
 
 
 Getting more information (获取更多信息)
