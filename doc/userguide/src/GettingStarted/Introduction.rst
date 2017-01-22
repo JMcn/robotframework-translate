@@ -111,7 +111,7 @@ diagram below.
 
 Robot Framework 是一个通用的，应用和技术相互独立的框架。它有一个高度模块化的架构图如下。
 
-.. figure:: src/GettingStarted/architecture.png
+.. figure:: https://raw.githubusercontent.com/JMcn/robotframework-cn/master/GettingStarted/architecture.png
 
    Robot Framework architecture (Robot Framework 架构图)
 
@@ -138,11 +138,11 @@ reports_ and logs_.
 
 以下屏幕截图展示了测试数据和创建的报告和日志的例子。
 
-.. figure:: src/GettingStarted/testdata_screenshots.png
+.. figure:: https://raw.githubusercontent.com/JMcn/robotframework-cn/master/GettingStarted/testdata_screenshots.png
 
    Test case files (测试用例文件)
 
-.. figure:: src/GettingStarted/screenshots.png
+.. figure:: https://raw.githubusercontent.com/JMcn/robotframework-cn/master/GettingStarted/screenshots.png
 
    Reports and logs (报告和日志)
 
