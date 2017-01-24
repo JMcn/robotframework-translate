@@ -5,34 +5,48 @@ This section covers Robot Framework's overall test data
 syntax. The following sections will explain how to actually create test
 cases, test suites and so on.
 
+本节涵盖Robot Framework的整体测试数据语法。以下部分将说明如何实际创建测试用例，测试套件等。
+
 .. contents::
    :depth: 2
    :local:
 
-Files and directories
----------------------
+Files and directories (文件和目录)
+-----------------------------------
 
 The hierarchical structure for arranging test cases is built as follows:
 
+测试用例的组织层次结构如下:
+
 - Test cases are created in `test case files`_.
+- 测试用例在测试用例文件中建立。
 - A test case file automatically creates a `test suite`_ containing
   the test cases in that file.
+- 一个测试文件自动建成一个包含这些测试用例的测试套件。
 - A directory containing test case files forms a higher-level test
   suite. Such a `test suite directory`_ has suites created from test
   case files as its sub test suites.
+- 一个包含多个测试用例文件的目录构成更高级别的测试套件。即这个测试套件目录包含多个子测试套件,而子测试套件是由测试用例文件创建而来的。
 - A test suite directory can also contain other test suite directories,
   and this hierarchical structure can be as deeply nested as needed.
+- 一个测试套件目录可以包含其他测试套件目录,这种层次结构可以满足深层嵌套的需要。
 - Test suite directories can have a special `initialization file`_.
+- 测试套件目录可以有一个特殊的初始文件。
 
 In addition to this, there are:
 
+此外,还有:
+
 - `Test libraries`_ containing the lowest-level keywords.
+- 测试库包含最低级别的关键字。
 - `Resource files`_ with `variables (变量)`_ and higher-level `user keywords`_.
+- 资源文件包含变量和更高级别的用户自定义关键字。
 - `Variable files`_ to provide more flexible ways to create variables
   than resource files.
+- 变量文件可以提供比资源文件更灵活的方式创建变量。
 
-Supported file formats
-----------------------
+Supported file formats (支持的文件格式)
+---------------------------------------
 
 Robot Framework test data is defined in tabular format, using either
 hypertext markup language (HTML), tab-separated values (TSV),
@@ -53,8 +67,8 @@ formats to make it easier to get started writing tests.
 .. note:: The special :file:`.robot` extension with plain text files is
           supported starting from Robot Framework 2.7.6.
 
-HTML format
-~~~~~~~~~~~
+HTML format (HTML 格式)
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 HTML files support formatting and free text around tables. This makes it
 possible to add additional information into test case files and allows creating
@@ -112,8 +126,8 @@ tables is ignored.
    \             Directory Should Exist  ${path}
    ============  ======================  ============  ==========
 
-Editing test data
-'''''''''''''''''
+Editing test data (编辑测试数据)
+''''''''''''''''''''''''''''''''
 
 Test data in HTML files can be edited with whichever editor you
 prefer, but a graphic editor, where you can actually see the tables,
@@ -121,8 +135,8 @@ is recommended. RIDE_ can read and write HTML files, but unfortunately
 it loses all HTML formatting and also possible data outside test case
 tables.
 
-Encoding and entity references
-''''''''''''''''''''''''''''''
+Encoding and entity references (Encoding 实体引用)
+''''''''''''''''''''''''''''''''''''''''''''''''''''
 
 HTML entity references (for example, `&auml;`) are
 supported. Additionally, any encoding can be used, assuming that it is
@@ -137,13 +151,13 @@ XHTML files should use the XML preamble as in this example::
 
 If no encoding is specified, Robot Framework uses ISO-8859-1 by default.
 
-TSV format
-~~~~~~~~~~
+TSV format (TSV 格式)
+~~~~~~~~~~~~~~~~~~~~~~
 
 TSV files can be edited in spreadsheet programs and, because the syntax is
 so simple, they are easy to generate programmatically. They are also pretty
 easy to edit using normal text editors and they work well in version control,
-but the `plain text format`_ is even better suited for these purposes.
+but the `plain text format (纯文本格式)`_ is even better suited for these purposes.
 
 The TSV format can be used in Robot Framework's test data for all the
 same purposes as HTML. In a TSV file, all the data is in one large
@@ -207,15 +221,15 @@ Encoding
 TSV files are always expected to use UTF-8 encoding. Because ASCII is
 a subset of UTF-8, plain ASCII is naturally supported too.
 
-Plain text format
-~~~~~~~~~~~~~~~~~
+Plain text format (纯文本格式)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The plain texts format is very easy to edit using any text editor and
 they also work very well in version control. Because of these benefits
 it has became the most used data format with Robot Framework.
 
 The plain text format is technically otherwise similar to the `TSV
-format`_ but the separator between the cells is different. The TSV
+format (TSV 格式)`_ but the separator between the cells is different. The TSV
 format uses tabs, but in the plain text format you can use either two
 or more spaces or a pipe character surrounded with spaces (:codesc:`\ |\ `).
 
@@ -357,8 +371,8 @@ In practice it combines many of the benefits of plain text and HTML formats.
 
 When using reST files with Robot Framework, there are two ways to define the
 test data. Either you can use `code blocks`__ and define test cases in them
-using the `plain text format`_ or alternatively you can use tables__ exactly
-like you would with the `HTML format`_.
+using the `plain text format (纯文本格式)`_ or alternatively you can use tables__ exactly
+like you would with the `HTML format (HTML 格式)`_.
 
 .. note:: Using reST files with Robot Framework requires the Python docutils_
           module to be installed.
@@ -396,7 +410,7 @@ containing Robot Framework test data. If such code blocks are found, data
 they contain is written into an in-memory file and executed. All data outside
 the code blocks is ignored.
 
-The test data in the code blocks must be defined using the `plain text format`_.
+The test data in the code blocks must be defined using the `plain text format (纯文本格式)`_.
 As the example below illustrates, both space and pipe separated variants are
 supported:
 
@@ -445,7 +459,7 @@ Using tables
 
 If a reStructuredText document contains no code blocks with Robot Framework
 data, it is expected to contain the data in tables similarly as in
-the `HTML format`_. In this case Robot Framework compiles the document to
+the `HTML format (HTML 格式)`_. In this case Robot Framework compiles the document to
 HTML in memory and parses it exactly like it would parse a normal HTML file.
 
 Robot Framework identifies `test data tables`_ based on the text in the first

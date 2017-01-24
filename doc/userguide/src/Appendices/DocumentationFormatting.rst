@@ -60,7 +60,7 @@ No automatic newline is added if a line already ends with a literal newline
 or if it ends with an `escaping backslash`__. If documentation or metadata
 is defined in multiple columns, cells in a same row are concatenated together
 with spaces. This kind of splitting can be a good idea especially when
-using the `HTML format`_ and columns are narrow. Different ways to split
+using the `HTML format (HTML 格式)`_ and columns are narrow. Different ways to split
 documentation are illustrated in the examples below where all test cases
 end up having the same two line documentation.
 

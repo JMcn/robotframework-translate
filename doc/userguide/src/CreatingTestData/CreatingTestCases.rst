@@ -488,7 +488,7 @@ It is possible to use simple `HTML formatting`_ in documentation and
 
 If documentation is split into multiple columns, cells in one row are
 concatenated together with spaces. This is mainly be useful when using
-the `HTML format`_ and columns are narrow. If documentation is `split
+the `HTML format (HTML 格式)`_ and columns are narrow. If documentation is `split
 into multiple rows`__, the created documentation lines themselves are
 `concatenated using newlines`__. Newlines are not added if a line
 already ends with a newline or an `escaping backslash`__.

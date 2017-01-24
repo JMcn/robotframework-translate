@@ -253,7 +253,7 @@ next cell contains the loop variable, the subsequent cell must have
 These values can contain `variables (变量)`_, including `list variables`_.
 
 The keywords used in the for loop are on the following rows and they must
-be indented one cell to the right. When using the `plain text format`_,
+be indented one cell to the right. When using the `plain text format (纯文本格式)`_,
 the indented cells must be `escaped with a backslash`__, but with other
 data formats the cells can be just left empty. The for loop ends
 when the indentation returns back to normal or the table ends.

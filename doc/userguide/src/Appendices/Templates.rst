@@ -6,8 +6,8 @@ Framework. There are templates both for `test case`_ and `resource
 files`_, and resource templates can also be used to create `test suite
 initialization files`_.
 
-Templates are available in `HTML format`_ and `TSV format`_ and they can be
-customized freely. There are no templates for the `plain text format`_ because
+Templates are available in `HTML format (HTML 格式)`_ and `TSV format (TSV 格式)`_ and they can be
+customized freely. There are no templates for the `plain text format (纯文本格式)`_ because
 it requires so little boilerplate that templates would not be very useful.
 
 `testcase_template.html`__

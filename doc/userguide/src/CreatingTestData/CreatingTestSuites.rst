@@ -62,7 +62,7 @@ If a file or directory that is processed does not contain any test
 cases, it is silently ignored (a message is written to the syslog_)
 and the processing continues.
 
-__ `Supported file formats`_
+__ `Supported file formats (支持的文件格式)`_
 
 Warning on invalid files
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -82,7 +82,7 @@ created from a test case file. Because a directory alone cannot have that
 kind of information, it must be placed into a special test suite initialization
 file. An initialization file name must always be of the format
 :file:`__init__.ext`, where the extension must be one of the `supported
-file formats`_ (for example, :file:`__init__.robot` or :file:`__init__.html`).
+file formats (支持的文件格式)`_ (for example, :file:`__init__.robot` or :file:`__init__.html`).
 The name format is borrowed from Python, where files named in this manner
 denote that a directory is a module.
 
