@@ -55,17 +55,28 @@ formats, as well as the main benefits and problems with them, are explained
 in the subsequent sections. Which format to use depends on the context,
 but the plain text format is recommended if there are no special needs.
 
+Robot Framework 的测试数据可以定义为表格形式,无论是使用超文本标记语言(HTML),制表符分隔值(TSV),纯文本,或 reStructuredText 格式。
+这些格式的细节，以及它们的主要优点和问题将在后续章节解释。使用哪种格式取决于上下文，
+但如果没有特殊需要，建议使用纯文本格式。
+
 Robot Framework selects a parser for the test data based on the file extension.
 The extension is case-insensitive, and the recognized extensions are
 :file:`.html`, :file:`.htm` and :file:`.xhtml` for HTML, :file:`.tsv`
 for TSV, :file:`.txt` and special :file:`.robot` for plain text, and
 :file:`.rst` and :file:`.rest` for reStructuredText.
 
+Robot Framework 基于文件扩展名选择用于测试数据的解析器。扩展名不区分大小写，并且识别的扩展名为 .html,
+.htm, .xhtml 用于HTML, .tsv, .txt, 和 特殊的 .robot 用于纯文本, .rst, .rest 用于 reStructuredText。
+
 Different `test data templates (测试数据模板)`_ are available for HTML and TSV
 formats to make it easier to get started writing tests.
 
+不同的测试数据模板可用 HTML 和 TSV 格式，以便更容易开始编写测试。
+
 .. note:: The special :file:`.robot` extension with plain text files is
           supported starting from Robot Framework 2.7.6.
+
+          从Robot Framework 2.7.6开始支持纯文本文件的特殊 .robot 扩展。
 
 HTML format (HTML 格式)
 ~~~~~~~~~~~~~~~~~~~~~~~~
