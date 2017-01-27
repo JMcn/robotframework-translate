@@ -94,6 +94,9 @@ example below). Robot Framework recognizes these `test data tables`_
 based on the text in their first cell. Everything outside recognized
 tables is ignored.
 
+在HTML文件中，测试数据在单独的表中定义（参见示例如下）。
+Robot Framework 认识这些测试数据是基于表中第一个单元格中的文字。被认可的表之外的任何东西都将被忽略。
+
 .. table:: Using the HTML format
    :class: example
 
